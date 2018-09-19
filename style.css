@@ -1,0 +1,130 @@
+body {
+	background-image: url("images/profil.jpg");
+	font-family: Arial;
+}
+
+#logo-navbar {
+  height: 100px;
+}
+
+.navbar {
+  border-bottom: 3px solid rgba(255,215,0,0.6);
+  position: relative;
+  background-color: rgba(255,255,255, 0.9);
+  margin: 0;
+}
+
+#navigacija-desno {
+  position: absolute !important;
+  bottom: 0;
+  right: 35px;
+  vertical-align: bottom;
+  padding: 0 25px;
+}
+
+.nav-link {
+  padding: 0 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-link a {
+  padding: 10px 20px !important;
+  font-weight: bold;
+  color: rgba(22,111,175,1.0) !important;
+}
+
+.nav-link:hover {
+    text-decoration-color: black;
+    padding: 0;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(gold), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#footer {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255,255,255,0.8);;
+  border-top: 3px solid rgba(255,215,0,0.6);
+  color: rgba(22,111,175,1.0) !important;
+}
+
+
+.usernameLogin a{
+  padding: 10px 20px !important;
+  font-weight: bold;
+  color: rgba(22,111,175,1.0) !important;
+}
+
+.usernameLogin a:hover {
+  text-decoration-color: black;
+    padding: 0;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(gold), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+
+
+
+#ikonica {
+	font-size: 3em;
+}
+
+.okvir {
+	
+	height: 500px;
+	width: 400px;
+}
+
+.okvir img {
+	height: 500px;
+	width: 400px;
+}
+
+.usernameLogin {
+	float: right;
+}
+
+
+
+.tabela {
+	border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabela td, th {
+	padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}

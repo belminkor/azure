@@ -1,0 +1,291 @@
+body {
+  font-family: Arial;
+  background-image: url("images/body-background.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+#logo-navbar {
+  height: 100px;
+}
+
+.navbar {
+  border-bottom: 3px solid rgba(255,215,0,0.6);
+  position: relative;
+  background-color: rgba(255,255,255, 0.9);
+  margin: 0;
+}
+
+#navigacija-desno {
+  position: absolute !important;
+  bottom: 0;
+  right: 35px;
+  vertical-align: bottom;
+  padding: 0 25px;
+}
+
+.nav-link {
+  padding: 0 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav-link a {
+  padding: 10px 20px !important;
+  font-weight: bold;
+  color: rgba(22,111,175,1.0) !important;
+}
+
+.nav-link:hover {
+    text-decoration-color: black;
+    padding: 0;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(gold), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+body.modal-open .container-fluid{
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.modal {
+  color: white;
+  position: fixed;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 110%;
+  margin: 0;
+  pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;
+}
+.modal-content {
+  width: 20%;
+  height:inherit;
+  margin: 0 auto;
+  pointer-events: all;
+  background: transparent;
+  border:none;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
+
+.modal-backdrop {
+  background-color: rgba(189,152,0,0.4);
+}
+
+.naslov {
+
+    opacity: 0.9;
+    margin: 200px auto;
+    font-size: 100px;
+}
+
+#image-jumbo {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("../images/hotel-jumbo.jpg");
+    background-size: cover;
+}
+
+.clanak {
+    padding: 20px;
+    color: white;
+    line-height: 25px;
+}
+
+.slika-wrapper {
+    overflow:auto;
+    padding: 0 !important;
+    background-image: url('images/slika 4.jpg');
+    background-size: cover;
+}
+
+#slika-wrapper-1 {
+    background-image: url('images/slika-1.jpg')
+}
+#slika-wrapper-2 {
+    background-image: url('images/slika-2.jpg')
+}
+#slika-wrapper-3 {
+    background-image: url('images/slika-3.jpg')
+}
+#slika-wrapper-4 {
+    background-image: url('images/slika-4.jpg')
+}
+
+.lijevi {
+    margin: 0 !important;
+    display: inline-block;
+    height: 100%;
+
+}
+.desni {
+     margin: 0 !important;
+     display: inline-block;
+     height: 100%;
+ }
+
+.tamni {
+    background-color: rgba(0,0,0, 0.6);
+}
+
+#unmLogin {
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid white;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    color: white;
+}
+
+#passLogin {
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid white;
+    -webkit-border-radius:10;
+    -moz-border-radius:10;
+    border-radius:10;
+    color: white;
+}
+
+.carousel img {
+  min-width: 100%;
+  height: 500px;
+}
+
+#carousel-wrapper {
+  margin: 20px;
+}
+
+#restoran {
+  background-image: url("images/restoran.jpg");
+}
+#bazen {
+  background-image: url("images/bazen.jpg");
+}
+#sauna {
+  background-image: url("images/sauna.jpg");
+}
+#galerija {
+  background-image: url("images/galerija.jpg");
+}
+#bar {
+  background-image: url("images/bar.jpg");
+}
+#sastanci {
+  background-image: url("images/sastanci.jpg");
+}
+
+.kvadrat {
+  margin: 0.9% 0.80%;
+  display: inline-block;
+  width: 31.5%;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.3);
+}
+
+.kvadrat:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.1);
+  cursor: pointer;
+}
+
+.kvadrat-naslov {
+  margin-top: 70%;
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+
+.tri-kvadrata {
+  margin: 0 19px;
+}
+
+.dugme {
+  background-color: rgba(0,0,0,0.5) !important;
+  border-color: white  !important;
+  border: 2px solid  !important;
+  color: white  !important;
+  padding: 5px 15px;
+}
+
+
+.sadrzaj {
+  width: 95%;
+
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  background-color: rgba(255,255,255, 0.8);
+  border-top: 1px rgba(255,255,255, 0.8) solid;
+  border-bottom: 1px rgba(255,255,255, 0.8) solid;
+
+}
+
+#footer {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255,255,255,0.8);;
+  border-top: 3px solid rgba(255,215,0,0.6);
+  color: rgba(22,111,175,1.0) !important;
+}
+
+
+.usernameLogin a{
+  padding: 10px 20px !important;
+  font-weight: bold;
+  color: rgba(22,111,175,1.0) !important;
+}
+
+.usernameLogin a:hover {
+  text-decoration-color: black;
+    padding: 0;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(gold), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, gold, rgba(0, 0, 0, 0)) 1 100%;
+    border-top: 0;
+    border-bottom: 0;
+}
